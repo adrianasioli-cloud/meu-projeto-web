@@ -22,19 +22,19 @@
     flex: 1;
     justify-content: space-between; /*jogar flexboxfroggy.com*/
 }
-.titulo-da-notica {
+.titulo-da-noticia {
     font-size: 1.5rem;
     font-weight: bold;
     margin: 1.5rem 0;
 
 }
-.classificacao-da-notica {
+.classificacao-da-noticia {
     display: flex;
     justify-content: space-between;
     margin-bottom: .5rem;
 }
 .botao-do-cartao {
-    background-color: blue;
+    background-color: rgb(146, 146, 151);
     color: #bbb;
     text-align: center;
     padding: .3rem;
@@ -46,4 +46,10 @@
 .botao-do-cartao:hover {
     background-color: #33339e;
     color: white;
+}
+main p {
+    border: .1rem solid green;
+    display: flex;
+    justify-content: space-between;
+
 }
