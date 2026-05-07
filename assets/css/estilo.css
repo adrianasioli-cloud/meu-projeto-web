@@ -4,6 +4,7 @@
 @import url("corpo.css");
 @import url("responsividade.css");
 @import url("rodape.css");
+@import url("painel.css");
 
 
 * {
@@ -22,6 +23,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
 }
 
 
